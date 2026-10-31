@@ -16,7 +16,7 @@ Ask questions about a database in plain English. Google Gemini writes the SQL, t
 ```bash
 npm install
 npm run seed            # creates data/shop.db (customers, products, orders, order_items)
-cp .env.example .env.local   # then put your key in GEMINI_API_KEY (free at aistudio.google.com)
+echo "GEMINI_API_KEY=your_key" > .env.local   # free key at aistudio.google.com
 npm run dev
 ```
 
